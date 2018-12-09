@@ -1,0 +1,35 @@
+.news {
+    padding-top: 69px; 
+    height: 100%;
+}
+.news-h2-location {
+    padding-bottom: 70px;
+}
+.feeds {
+    width: 874px;
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.feeds__item {
+    min-height: 160px;
+    margin-bottom: 62px; 
+    display: flex;  
+}
+.feeds__img {
+    width: 160px;
+    height: 160px;
+    margin-right: 20px;
+}
+.feeds__date {
+    color: #656464;
+    font-size: 14px;
+    font-weight: 300;
+}
+.feeds__topic {
+    font-size: 18px;
+    font-weight: 700;
+}
+.feeds__info {
+    font-weight: 300;
+    line-height: 30px;
+}

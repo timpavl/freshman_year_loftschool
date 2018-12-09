@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Gora Free";
+    src: url(../../fonts/Gora-Free.ttf);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+    font-family: "Open Sans - Bold";
+    src: url(../../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: "Open Sans - Light";
+    src: url(../../fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: "Open Sans - LI";
+    src: url(../../fonts/OpenSans-LightItalic.ttf);
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700&subset=cyrillic');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.wrapper {
+
+}
+
+h3{
+    font-family: "Open Sans - Bold";
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.88px; 
+}
+.text_white {
+    color: #ffffff;
+}
