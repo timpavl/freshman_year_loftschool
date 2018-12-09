@@ -5,6 +5,9 @@
 .news-h2-location {
     padding-bottom: 70px;
 }
+.news__block {
+    display: flex;
+}
 .feeds {
     width: 874px;
     padding-left: 20px;
@@ -32,4 +35,8 @@
 .feeds__info {
     font-weight: 300;
     line-height: 30px;
+}
+.top-news {
+    width: 161px;
+    padding-right: 19px;
 }
