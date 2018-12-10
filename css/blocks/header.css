@@ -44,9 +44,17 @@
     letter-spacing: 1.2px;
     transition: 250ms;
 }
-.navigation__list-home_active {
-    color: #f89513;
-    cursor: pointer;
+.navigation__list-home::before {
+    padding-right: 18px;
+    content: url(../../img/icon/main_icon.png);
+}
+.navigation__list-comments::before {
+    padding-right: 17px;
+    content: url(../../img/icon/feed_icon.png);
+}
+.navigation__list-services::before {
+    padding-right: 17px;
+    content: url(../../img/icon/service_icon.png);
 }
 .navigation__list-home:hover,
 .navigation__list-home:focus,
@@ -57,7 +65,27 @@
     outline: none;
     color: #f89513;
 }
-
+.navigation__list-comments_active,
+.navigation__list-services_active,
+.navigation__list-home_active {
+    color: #f89513;
+    cursor: pointer;
+}
+.navigation__list-home:hover::before,
+.navigation__list-home:focus::before,
+.navigation__list-home_active::before{
+    content: url(../../img/icon/main_icon-active.png);
+}
+.navigation__list-comments:hover::before,
+.navigation__list-comments:focus::before,
+.navigation__list-comments_active::before {
+    content: url(../../img/icon/feed_icon-active.png);
+}
+.navigation__list-services:hover::before,
+.navigation__list-services:focus::before,
+.navigation__list-services_active::before {
+    content: url(../../img/icon/service_icon-active.png);
+}
 /*----ИНФОРМАЦИЯ HEADER----*/
 .contacts {
     padding-top: 22px;
