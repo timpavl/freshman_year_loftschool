@@ -111,6 +111,7 @@
 }
 .backward-page:hover,
 .backward-page:focus {
+    outline: none;
     background-image: url(../../img/arrow/backward-arrow_active.png);
 }
 .next-page{
