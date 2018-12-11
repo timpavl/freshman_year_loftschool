@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Gora Free";
+    src: url(../../fonts/gora-free-webfont.woff);
+    src: url(../../fonts/gora-free-webfont.woff2);
+}
+@font-face {
+    font-family: "Open Sans - Bold";
+    src: url(../../fonts/opensans-bold-webfont.woff);
+    src: url(../../fonts/opensans-bold-webfont.woff2);
+}
+@font-face {
+    font-family: "Open Sans - Light";
+    src: url(../../fonts/opensans-light-webfont.woff);
+    src: url(../../fonts/opensans-light-webfont.woff2);
+}
+@font-face {
+    font-family: "Open Sans - LI";
+    src: url(../../fonts/opensans-lightitalic-webfont.woff);
+    src: url(../../fonts/opensans-lightitalic-webfont.woff2);
+}
+@font-face {
+    font-family: "Roboto Light";
+    src: url(../../fonts/roboto-light-webfont.woff);
+    src: url(../../fonts/roboto-light-webfont.woff2);
+}
+@font-face {
+    font-family: "Roboto Light";
+    src: url(../../fonts/roboto-light-webfont.woff);
+    src: url(../../fonts/roboto-light-webfont.woff2);
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../../fonts/roboto-bold-webfont.woff);
+    src: url(../../fonts/roboto-bold-webfont.woff2);
+}
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../../fonts/roboto-regular-webfont.woff);
+    src: url(../../fonts/roboto-regular-webfont.woff2);
+}

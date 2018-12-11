@@ -7,14 +7,27 @@
 }
 .rights {
     color: #ffffff;
-    width: 239px;
+    width: 243px;
 }
 .rights__content {
-    font-family: "Open Sans - Light";
     font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    font-family: "Open Sans Light";
+    font-weight: 300;
 }
-.rights__link-school {}
-.rights__link {}
+.rights__link-school {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-decoration: underline;
+}
+.rights__link {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-decoration: none;
+}
 .social-networks {
     width: 175px;
 }
