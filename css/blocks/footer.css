@@ -16,11 +16,10 @@
 .rights__link-school {}
 .rights__link {}
 .social-networks {
-    width: 174px;
+    width: 175px;
 }
-.social {
-    display: flex;
-    align-items: center;
+.socials {
+    width: 140px;
 }
 .social-networks__header {
     display: block;
@@ -38,15 +37,13 @@
     border-radius: 11px;
     cursor: pointer;
     background-color: #d0d0d0;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .socials__item:hover,
 .socials__item:focus {
     outline: none;
     background-color: #f89513;
-}
-.socials__link {
-    background-repeat: no-repeat;
-    background-position: center center;
 }
 .socials__link-vk{
     background-image: url(../../img/socials/vk.png);
