@@ -17,3 +17,16 @@ h3{
 .text_white {
     color: #ffffff;
 }
+.container_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    margin: 0 auto;
+    width: 1100px;
+}
+.container-content {
+    margin: 0 auto;
+    width: 878px;
+}

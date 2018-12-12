@@ -1,0 +1,27 @@
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+.main-nav_text {
+    opacity: 0.8;
+    color: #221f1f;
+    font-family: "Open Sans - Light";
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+}
+.main-nav__link {
+    display: inline-block;
+    text-decoration: none;
+    color: #f89513;
+    text-decoration: underline;
+}
+.main-nav_slash:after {
+    text-decoration: none;
+    color: #221f1f;
+    content: " / ";
+}
+.main-nav__link-active {
+    color: #221f1f;
+    text-decoration: none;
+}
