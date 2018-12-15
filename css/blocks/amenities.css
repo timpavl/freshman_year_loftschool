@@ -1,0 +1,84 @@
+.amenities {
+    height: 100%;
+}
+.features_h2-left{
+    text-align: left;
+}
+.amenities-list {
+    height: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.amenities-list__section {
+    display: inline-block;
+    list-style: none;
+    min-height: 500px;
+    width: 255px;
+    margin-right: 56px;
+}
+.img-sports{
+    background-image: url(../../img/services/sports-1962574_1920.png);
+}
+.img-apple {
+    background-image: url(../../img/services/apple-841169_1920.png);
+}
+.img-yoga {
+    background-image: url(../../img/services/yoga-1146277_1920.png);
+}
+.img-trx {
+    background-image: url(../../img/services/trx-1730331_1920.png);
+}
+.img-women {
+    background-image: url(../../img/services/women-1621297_1920.png);
+}
+.img-swimming {
+    background-image: url(../../img/services/swimming-78112_1920.png);
+}
+.amenities-list__img {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.amenities-list__background,
+.amenities-list__img {
+    width: 250px;
+    height: 153px;
+    margin: 0 auto;
+}
+.extreme {
+    margin-right: 0;
+}
+.amenities-list__background {
+    background-color: #000000;
+    opacity: 0.52;
+}
+.amenities-list__img-text{
+    color: #ffffff;
+    font-family: "Open Sans - Bold";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 0.72px;
+    margin: 0 auto;
+}
+.amenities-list__img{
+    width: 250px;
+    height: 153px;
+}
+.amenities-list__header {
+    display: block;
+    padding-top: 27px;
+    color: #221f1f;
+    font-family: "Open Sans - Bold";
+    font-size: 18px;
+    font-weight: 700;
+}
+.amenities-list__info {
+    padding-top: 7px;
+    color: #221f1f;
+    font-family: "Open Sans - Light";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21.02px;
+}

@@ -41,6 +41,7 @@
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 8px;
+    white-space: normal;
 }
 .socials__item {
     display: inline-block;
