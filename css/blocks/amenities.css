@@ -44,6 +44,10 @@
     width: 250px;
     height: 153px;
     margin: 0 auto;
+    transform: 1s;
+}
+.amenities-list__background:hover {
+    opacity: 0;
 }
 .extreme {
     margin-right: 0;
