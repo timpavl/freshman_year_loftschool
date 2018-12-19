@@ -16,24 +16,6 @@
     width: 255px;
     margin-right: 56px;
 }
-.img-sports{
-    background-image: url(../../img/services/sports-1962574_1920.png);
-}
-.img-apple {
-    background-image: url(../../img/services/apple-841169_1920.png);
-}
-.img-yoga {
-    background-image: url(../../img/services/yoga-1146277_1920.png);
-}
-.img-trx {
-    background-image: url(../../img/services/trx-1730331_1920.png);
-}
-.img-women {
-    background-image: url(../../img/services/women-1621297_1920.png);
-}
-.img-swimming {
-    background-image: url(../../img/services/swimming-78112_1920.png);
-}
 .amenities-list__img {
     position: relative;
 }
