@@ -1,0 +1,135 @@
+.form {
+    padding-top: 113px;
+    padding-bottom: 110px;
+    width: 588px;
+    margin: 0 auto;
+}
+.form-comment {
+    height: 305px;
+    padding-top: 29px;
+    font-family: "Open Sans - Light";
+    font-size: 14px;
+    font-weight: 300;
+}
+.form-comment__label,
+.form-comment__select-caption {
+    display: table;
+    font-size: 14px;
+    font-weight: 300px; 
+}
+.form-comment__name {
+    float: left;
+}
+
+.form-comment__link {
+    float: right;
+}
+.form-comment__input {
+    width: 269px;
+    border-radius: 3px;
+    padding: 15px 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+.form-comment__review {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.form-comment__text {
+    width: 561px;
+    height: 90px;
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+.form-comment__input:focus,
+.form-comment__text:focus {
+    outline: none;
+    border: 1px solid #f89513;
+}
+.form-comment__info {
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-comment__input::-webkit-input-placeholder {
+    color: #c2c1c1;
+}
+
+.form-comment__select {
+    margin-top: 10px;
+    float: left;
+    height: 50px;
+}
+
+.form-comment__value {
+    display: none;
+}
+
+.form-comment__label-value {
+    margin: 4px 0 0 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.form-comment__label-value:nth-child(3) {
+    margin: 0;
+}
+
+#add__yes:checked + .form-comment__label-value,
+#add__no:checked + .form-comment__label-value {
+    color: #f89513;
+}
+
+.form-comment__label-value:before {
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #cacaca;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #fefefe 0%,#efefef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.form-comment__label-value:before {
+    padding-right: 0;
+}
+
+.form-comment__value:checked + .form-comment__label-value:before {
+    border: 1px solid #f89513;
+}
+
+.form-comment__value:checked + .form-comment__label-value::after {
+    content: "";
+    position: relative;
+    left: 7px;
+    bottom: 14px;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #f89513 no-repeat;
+    border-radius: 50%;
+}
+.form-comment__submit {
+    font-size: 12px;
+    font-weight: bold;
+    width: 125px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #1c1f1d;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+  }
+  
+  .form-comment__submit:hover {
+    background-color: #f89513;
+  }

@@ -30,3 +30,8 @@ h3{
     margin: 0 auto;
     width: 878px;
 }
+.button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
