@@ -43,7 +43,7 @@
 }
 .amenities-list__img-text{
     color: #ffffff;
-    font-family: "Open Sans - Bold";
+    font-family: "Open Sans";
     font-size: 24px;
     font-weight: 700;
     line-height: 38px;
@@ -67,14 +67,14 @@
     display: block;
     padding-top: 27px;
     color: #221f1f;
-    font-family: "Open Sans - Bold";
+    font-family: "Open Sans";
     font-size: 18px;
     font-weight: 700;
 }
 .amenities-list__info {
     padding-top: 7px;
     color: #221f1f;
-    font-family: "Open Sans - Light";
+    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 300;
     line-height: 21.02px;

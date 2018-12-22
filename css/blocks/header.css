@@ -27,7 +27,7 @@
 }
 .navigation__list-link {
     color: #ffffff;
-    font-family: "Open Sans - Bold";
+    font-family: "Open Sans";
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -86,7 +86,7 @@
 .contacts__phone {
     display: block;
     color: #ffffff;
-    font-family: "Open Sans - Bold";
+    font-family: "Open Sans";
     font-size: 21px;
     font-weight: 700;
     text-decoration: none;
@@ -95,7 +95,7 @@
     display: inline-block;
     opacity: 0.7;
     color: #f89513;
-    font-family: "Open Sans - Bold";
+    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 700;
     float: right;

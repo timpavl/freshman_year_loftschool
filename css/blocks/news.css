@@ -30,20 +30,22 @@
 }
 .feeds__date {
     color: #656464;
-    font-family: "Roboto Light";
+    font-family: "Roboto";
     font-size: 14px;
     font-weight: 300;
 }
 .feeds__topic {
     display: block;
-    font-family: "Roboto Bold";
+    font-family: "Roboto";
     font-size: 18px;
     font-weight: 700;
+    line-height: 21px;
+    font-weight: bold;
     margin-top: 7px;
     margin-bottom: 10px;
 }
 .feeds__info {
-    font-family: "Roboto Regular";
+    font-family: "Roboto";
     font-size: 18px;
     font-weight: 300;
     line-height: 30px;
@@ -54,7 +56,7 @@
 }
 .top-news__h2{
     color: #221f1f;
-    font-family: "Open Sans - Bold";
+    font-family: "Open Sans";
     font-size: 12px;
     font-weight: 700;
     line-height: 21px;
@@ -80,7 +82,7 @@
 }  
 .page-navigation__pages {
     color: #656464;
-    font-family: "Roboto Light";
+    font-family: "Roboto";
     font-size: 14px;
     font-weight: 300;
 }
@@ -160,7 +162,7 @@
     background-image: url(../../img/arrow/next-arrow_active.png);
 }
 .news-page__number {
-    font-family: "Roboto Bold";
+    font-family: "Roboto";
     font-size: 14px;
     font-weight: 700;
 }

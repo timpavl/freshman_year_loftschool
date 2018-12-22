@@ -13,7 +13,7 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 18px;
-    font-family: "Open Sans Light";
+    font-family: "Open Sans";
     font-weight: 300;
 }
 .rights__link-school {
@@ -37,7 +37,7 @@
 .social-networks__header {
     display: block;
     color: #ffffff;
-    font-family: "Open Sans - Bold";
+    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 8px;

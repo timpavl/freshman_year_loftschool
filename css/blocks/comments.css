@@ -6,23 +6,52 @@
     height: 100%;
 }
 .insert {
-    height: 171px;
     background-color: #131415;
     background-image: url(../../img/comments/pattern.png);
 }
 .insert-text {
     width: 636px;
-    height: 107px;
     margin: 0 auto;
     padding-top: 30px;
+    padding-bottom: 34px;
     color: #ffffff;
-    font-family: "Open Sans - Light";
+    font-family: "Open Sans";
     font-size: 18px;
     font-weight: 300;
     line-height: 30px;
 }
 .insert-text_orange {
     color: #f89513;
-    font-family: "Open Sans - Bold";
+    font-family: "Open Sans";
     font-weight: 700;
+}
+.comments__block {
+    width: 694px;
+    color: #221f1f;
+}
+.comments__date {
+    color: #656464;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.comments__topic {
+    display: block;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.comments__info {
+    font-family: "Open Sans";
+    font-weight: 300;
+    line-height: 30px;
+}
+.feeds__img {
+    background-image: url(../../img/comments/default-avatar.png);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
