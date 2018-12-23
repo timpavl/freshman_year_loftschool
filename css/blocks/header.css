@@ -45,16 +45,28 @@
     transition: 250ms;
 }
 .navigation__list-home::before {
-    padding-right: 18px;
-    content: url(../../img/icon/main_icon.png);
+    /*padding-right: 18px;
+    content: url(../../img/icon/main_icon.png);*/
+    content: "";
+    left: 0;
+    background: url(../../img/icon/spritesheet.png);
+    background-repeat: no-repeat;
 }
 .navigation__list-comments::before {
-    padding-right: 17px;
-    content: url(../../img/icon/feed_icon.png);
+    /*padding-right: 17px;
+    content: url(../../img/icon/feed_icon.png);*/
+    content: "";
+    left: 0;
+    background: url(../../img/icon/spritesheet.png);
+    background-repeat: no-repeat;
 }
 .navigation__list-services::before {
-    padding-right: 18px;
-    content: url(../../img/icon/service_icon.png);
+    /*padding-right: 18px;
+    content: url(../../img/icon/service_icon.png);*/
+    content: "";
+    left: 0;
+    background: url(../../img/icon/spritesheet.png);
+    background-repeat: no-repeat;
 }
 .navigation__list-home:hover,
 .navigation__list-home:focus,
@@ -71,7 +83,39 @@
     color: #f89513;
     cursor: pointer;
 }
-.navigation__list-home:hover::before,
+.navigation__list-home:before {
+    top: 1px;
+    width: 19px;
+    height: 14px;
+    background-position: -47px -10px;
+    padding-right: 17px;
+}
+.navigation__list-home_active:before,
+.navigation__list-home:hover:before {
+    background-position: -8px -10px;
+}
+.navigation__list-services:before {
+    top: 1px;
+    width: 19px;
+    height: 14px;
+    background-position: -127px -10px;
+    padding-right: 17px;
+}
+.navigation__list-services_active:before,
+.navigation__list-services:hover:before {
+    background-position: -88px -10px;
+}
+.navigation__list-comments:before {
+    width: 21px;
+    height: 19px;
+    background-position: -208px -10px;
+    padding-right: 15px;
+}
+.navigation__list-comments_active:before,
+.navigation__list-comments:hover:before {
+    background-position: -167px -10px;
+}
+/*.navigation__list-home:hover::before,
 .navigation__list-home:focus::before,
 .navigation__list-home_active::before{
     content: url(../../img/icon/main_icon-active.png);
@@ -85,7 +129,7 @@
 .navigation__list-services:focus::before,
 .navigation__list-services_active::before {
     content: url(../../img/icon/service_icon-active.png);
-}
+}*/
 /*----ИНФОРМАЦИЯ HEADER----*/
 .contacts {
     padding-top: 22px;
