@@ -35,13 +35,15 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 .aside-content {
-    width: 27%;
+    width: 275px;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
 }
+.sidebar {
+    width: 255px;
+}
 .page-content {
-    width: 73%;
     padding-left: 22px;
 }
 .sidebar_main {

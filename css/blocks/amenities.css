@@ -12,9 +12,7 @@
 .amenities-list__section {
     display: inline-block;
     list-style: none;
-    min-height: 500px;
-    width: 255px;
-    margin-right: 56px;
+    flex: 1 0 250px;
 }
 .amenities-list__img {
     position: relative;
@@ -23,7 +21,6 @@
 .amenities-list__img {
     width: 250px;
     height: 153px;
-    margin: 0 auto;
 }
 .extreme {
     margin-right: 0;
@@ -78,4 +75,5 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 21.02px;
+    width: 255px;
 }
