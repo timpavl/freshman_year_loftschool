@@ -5,8 +5,6 @@
 }
 /*----ЛОГОТИП----*/
 .logo {
-   /* padding-top: 30px;
-    padding-bottom: 28px;*/
     height: 100%;
 }
 .logo__link {
@@ -19,14 +17,25 @@
 }
 /*----МЕНЮ----*/
 .navigation {
-    width: 341px;
-    height: 100%;
+    padding-top: 39px;
+    margin: 0 auto;
+}
+.navigation_flex{
+    display: flex;
+    align-items: center;
+}
+.navigation__list {
+    width: 101px;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .navigation__list-item {
     list-style: none;
 }
 .navigation__list-link {
-    color: #ffffff;
+    color: #221f1f;
     font-family: "Open Sans";
     font-size: 12px;
     font-weight: 700;
@@ -44,7 +53,7 @@
     content: url(../../img/icon/feed_icon.png);
 }
 .navigation__list-services::before {
-    padding-right: 17px;
+    padding-right: 18px;
     content: url(../../img/icon/service_icon.png);
 }
 .navigation__list-home:hover,

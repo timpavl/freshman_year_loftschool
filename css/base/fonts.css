@@ -12,6 +12,13 @@
 }
 @font-face {
     font-family: "Open Sans";
+    src: url(../../fonts/opensans-extrabold-webfont.woff);
+    src: url(../../fonts/opensans-extrabold-webfont.woff2);
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
     src: url(../../fonts/opensans-light-webfont.woff);
     src: url(../../fonts/opensans-light-webfont.woff2);
     font-weight: 300;

@@ -8,12 +8,15 @@
 .insert {
     background-color: #131415;
     background-image: url(../../img/comments/pattern.png);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .insert-text {
-    width: 636px;
+    width: 222px;
     margin: 0 auto;
     padding-top: 30px;
-    padding-bottom: 34px;
+    padding-bottom: 31px;
+    text-align: center;
     color: #ffffff;
     font-family: "Open Sans";
     font-size: 18px;
@@ -24,6 +27,9 @@
     color: #f89513;
     font-family: "Open Sans";
     font-weight: 700;
+}
+.sidebar_comments {
+    padding-top: 60px;
 }
 .comments__block {
     width: 694px;

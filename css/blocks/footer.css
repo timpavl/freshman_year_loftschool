@@ -29,18 +29,21 @@
     text-decoration: none;
 }
 .social-networks {
+    padding-top: 30px;
     width: 175px;
+    margin: 0 auto;
 }
 .socials {
+    margin: 0 auto;
     width: 140px;
 }
 .social-networks__header {
     display: block;
-    color: #ffffff;
+    color: #221f1f;
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     white-space: normal;
 }
 .socials__item {
@@ -48,9 +51,9 @@
     list-style: none;
     width: 20px;
     height: 20px;
+    margin: 0 auto;
     border-radius: 11px;
     cursor: pointer;
-    background-color: #d0d0d0;
     background-repeat: no-repeat;
     background-position: center center;
 }

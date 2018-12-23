@@ -1,8 +1,8 @@
 .features {
-    background-color: #131415;
-    color: #ffffff;
-    padding-top: 66px;
-    height: 100%;
+    border: 1px solid black;
+    width: 276px;
+    padding-top: 28px;
+    padding-bottom: 31px;
 }
 .features__h2 {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -10,6 +10,16 @@
     font-weight: 700;
     text-transform: uppercase;    
     letter-spacing: 1.47px;
+    text-align: center;
+}
+.features__header {
+    color: #221f1f;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    letter-spacing: 0.54px;
     text-align: center;
 }
 .features__list {
@@ -67,11 +77,14 @@
 }
 /*---ТЕКСТ---*/
 .uniqueness__h3 {
-    margin-bottom: 30px;
+    margin-top: 32px;
+    margin-bottom: 21px;
     font-family: "Open Sans";
+    color: #221f1f;
     font-size: 11px;
+    font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 2.88px; 
+    letter-spacing: 2.88px;
 }
 .premium-class__h3 {
     margin-bottom: 30px;
@@ -90,7 +103,7 @@
 .features__li {
     height: 100%;
     width: 232px;
-    margin-bottom: 102px;
+    margin: 0 auto;
     list-style-type: none;
     text-align: center;
 }
@@ -112,6 +125,5 @@
     padding-left: 43px;
 }
 .features__info_li {
-    color: #ffffff;
     list-style-type: disc;
 }

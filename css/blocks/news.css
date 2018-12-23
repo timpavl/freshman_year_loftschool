@@ -1,12 +1,12 @@
 .news {
-    padding-top: 69px; 
-    height: 100%;
+    padding-top: 20px; 
 }
 .news-h2-location {
-    padding-bottom: 70px;
+    text-align: inherit;
+    padding-bottom: 37px;
 }
 .news__block {
-    display: flex;
+    width: 808px;
 }
 .feeds {
     width: 874px;
@@ -14,9 +14,7 @@
 /*---ОСНОВНЫЕ БЛОКИ НОВОСТЕЙ---*/
 .feeds__item {
     min-height: 160px;
-    margin-left: 20px;
-    margin-right: 27px;
-    margin-bottom: 62px; 
+    margin-bottom: 49px; 
     display: flex;  
 }
 .feeds__img {
@@ -26,7 +24,7 @@
 }
 /*---ТЕКСТ НОВОСТЕЙ---*/
 .feeds__block {
-    width: 694px;
+    width: 611px;
 }
 .feeds__date {
     color: #656464;
@@ -52,9 +50,11 @@
 }
 /*---НОВОСТИ ASIDE---*/
 .top-news {
+    padding-top: 61px;
     width: 161px;
+    margin: 0 auto;
 }
-.top-news__h2{
+.top-news__h3{
     color: #221f1f;
     font-family: "Open Sans";
     font-size: 12px;
@@ -62,6 +62,7 @@
     line-height: 21px;
     text-transform: uppercase;
     letter-spacing: 2.4px;
+    text-align: center;
 }
 .top-news__month {
     display: block;
@@ -76,7 +77,7 @@
 .page-navigation {
     width: 342px;
     margin: 0 auto;
-    margin-bottom: 67px;
+    margin-bottom: 50px;
     display: flex;  
     align-items: center;
 }  
