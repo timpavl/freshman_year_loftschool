@@ -168,3 +168,33 @@
     color: #818282;
     text-decoration-color: #818282;
 }
+.work-schedule:hover .work-schedule__list{
+    display: block;
+  }
+.work-schedule__list {
+    position: absolute;
+    background-image: url(../../img/icon/popup.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 163px;
+    min-height: 81px;
+    opacity: 0.95;
+    top: 62px;
+    padding-top: 28px;
+    text-align: center;
+    display: none;
+}
+.work-schedule_work {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #f89513;
+}
+.work-schedule_lunch {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #221f1f;
+    font-weight: 300;
+    line-height: 18px;
+}
