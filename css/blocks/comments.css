@@ -3,7 +3,6 @@
     margin-bottom: 50px;
 }
 .amenities {
-    height: 100%;
 }
 .insert {
     background-color: #131415;
@@ -32,8 +31,11 @@
     padding-top: 60px;
 }
 .comments__block {
-    width: 694px;
+    width: 642px;
     color: #221f1f;
+}
+.comments {
+    padding-right: 29px;
 }
 .comments__date {
     color: #656464;

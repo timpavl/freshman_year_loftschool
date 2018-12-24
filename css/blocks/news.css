@@ -76,7 +76,7 @@
 /*---НАВИГАЦИЯ ПО СТРАНИЦА НОВОСТЕЙ---*/
 .page-navigation {
     width: 342px;
-    margin: 0 auto;
+    margin-left: 135px;
     margin-bottom: 50px;
     display: flex;  
     align-items: center;

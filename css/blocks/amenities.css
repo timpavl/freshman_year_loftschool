@@ -1,5 +1,4 @@
 .amenities {
-    height: 100%;
 }
 .features_h2-left{
     text-align: left;
@@ -8,6 +7,7 @@
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 55px;
 }
 .amenities-list__section {
     display: inline-block;
